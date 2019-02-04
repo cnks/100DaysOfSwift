@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		B3C4D94022088E34006BF467 /* day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3C4D94122089621006BF467 /* day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -21,6 +22,7 @@
 		B3C4D92A2208861E006BF467 /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B3C4D94122089621006BF467 /* day2.playground */,
 				B3C4D94022088E34006BF467 /* day1.playground */,
 			);
 			path = 100DaysOfSwift;
