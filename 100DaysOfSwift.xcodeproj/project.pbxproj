@@ -7,11 +7,37 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		B33A5EC62209BEEA00D24DD1 /* combining-conditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "combining-conditions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33A5EC82209C54200D24DD1 /* ternary-operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ternary-operator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33A5EC92209C87D00D24DD1 /* switch-statements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "switch-statements.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33A5ECA2209CAD400D24DD1 /* range-operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "range-operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3459162220988DA00DA3A1C /* day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B345916422098B0300DA3A1C /* aritmetic-operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "aritmetic-operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B345916522098D1200DA3A1C /* operator-overloading.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "operator-overloading.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B34591662209906A00DA3A1C /* compound-assignment-operatos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "compound-assignment-operatos.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3459167220996B700DA3A1C /* comparison-operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "comparison-operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B34591682209990600DA3A1C /* conditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = conditions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3C4D94022088E34006BF467 /* day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3C4D94122089621006BF467 /* day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		B345916322098A1100DA3A1C /* day3 */ = {
+			isa = PBXGroup;
+			children = (
+				B33A5ECA2209CAD400D24DD1 /* range-operators.playground */,
+				B33A5EC92209C87D00D24DD1 /* switch-statements.playground */,
+				B33A5EC82209C54200D24DD1 /* ternary-operator.playground */,
+				B33A5EC62209BEEA00D24DD1 /* combining-conditions.playground */,
+				B34591682209990600DA3A1C /* conditions.playground */,
+				B3459167220996B700DA3A1C /* comparison-operators.playground */,
+				B34591662209906A00DA3A1C /* compound-assignment-operatos.playground */,
+				B345916522098D1200DA3A1C /* operator-overloading.playground */,
+				B345916422098B0300DA3A1C /* aritmetic-operators.playground */,
+			);
+			path = day3;
+			sourceTree = "<group>";
+		};
 		B3C4D91F2208861E006BF467 = {
 			isa = PBXGroup;
 			children = (
@@ -22,6 +48,8 @@
 		B3C4D92A2208861E006BF467 /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B345916322098A1100DA3A1C /* day3 */,
+				B3459162220988DA00DA3A1C /* day3.playground */,
 				B3C4D94122089621006BF467 /* day2.playground */,
 				B3C4D94022088E34006BF467 /* day1.playground */,
 			);
