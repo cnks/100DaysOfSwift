@@ -33,6 +33,11 @@
 		B356DFAE220A15F100AB5FF0 /* infinite-loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "infinite-loops.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC80E220C32A6006F880F /* running-throwing-functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "running-throwing-functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC80F220C3A09006F880F /* inout-parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "inout-parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B39FC811220C40C3006F880F /* creating-basic-closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "creating-basic-closures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B39FC812220C4252006F880F /* accepting-parameters-in-closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "accepting-parameters-in-closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B39FC813220C48A6006F880F /* returning-values-from-closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "returning-values-from-closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B39FC814220C5551006F880F /* closures-as-parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "closures-as-parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B39FC815220C5DA7006F880F /* trailing-closure-syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "trailing-closure-syntax.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3C4D94022088E34006BF467 /* day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3C4D94122089621006BF467 /* day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -101,6 +106,18 @@
 			path = day3;
 			sourceTree = "<group>";
 		};
+		B39FC810220C402D006F880F /* day6 */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC815220C5DA7006F880F /* trailing-closure-syntax.playground */,
+				B39FC814220C5551006F880F /* closures-as-parameters.playground */,
+				B39FC813220C48A6006F880F /* returning-values-from-closure.playground */,
+				B39FC812220C4252006F880F /* accepting-parameters-in-closure.playground */,
+				B39FC811220C40C3006F880F /* creating-basic-closures.playground */,
+			);
+			path = day6;
+			sourceTree = "<group>";
+		};
 		B3C4D91F2208861E006BF467 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +128,7 @@
 		B3C4D92A2208861E006BF467 /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B39FC810220C402D006F880F /* day6 */,
 				B33E6373220AE5D400C72FAC /* day5 */,
 				B33A5ECD2209D6FB00D24DD1 /* day4 */,
 				B345916322098A1100DA3A1C /* day3 */,
