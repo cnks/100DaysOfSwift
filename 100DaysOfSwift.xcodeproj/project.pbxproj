@@ -16,6 +16,11 @@
 		B33B8571220DD69E002019EA /* creating-your-own-structs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "creating-your-own-structs.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B33C0488220B2D5D00BB35B5 /* variadic-functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "variadic-functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B33C0489220B30E500BB35B5 /* writing-throwing-functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "writing-throwing-functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33C2BAD220EFC8200D275C6 /* initializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = initializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33C2BAE220F021D00D275C6 /* referring-to-the-current-instance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "referring-to-the-current-instance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33C2BAF220F05B400D275C6 /* lazy-properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "lazy-properties.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33C2BB0220F097E00D275C6 /* static-properties-and-methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "static-properties-and-methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B33C2BB1220F0CE000D275C6 /* access-control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "access-control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B33D0AFB220D8418007275CF /* capturing-values.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "capturing-values.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B33E6374220AE66A00C72FAC /* writing-functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "writing-functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B33E6375220AED8900C72FAC /* accepting-parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "accepting-parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -100,6 +105,18 @@
 			path = day8;
 			sourceTree = "<group>";
 		};
+		B33C2BAC220EFBEF00D275C6 /* day9 */ = {
+			isa = PBXGroup;
+			children = (
+				B33C2BB1220F0CE000D275C6 /* access-control.playground */,
+				B33C2BB0220F097E00D275C6 /* static-properties-and-methods.playground */,
+				B33C2BAF220F05B400D275C6 /* lazy-properties.playground */,
+				B33C2BAE220F021D00D275C6 /* referring-to-the-current-instance.playground */,
+				B33C2BAD220EFC8200D275C6 /* initializers.playground */,
+			);
+			path = day9;
+			sourceTree = "<group>";
+		};
 		B33E6373220AE5D400C72FAC /* day5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +185,7 @@
 		B3C4D92A2208861E006BF467 /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B33C2BAC220EFBEF00D275C6 /* day9 */,
 				B33B8570220DD659002019EA /* day8 */,
 				B39FC816220C6227006F880F /* day7 */,
 				B39FC810220C402D006F880F /* day6 */,
