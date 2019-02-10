@@ -47,6 +47,12 @@
 		B385358F220DEC6C00578FA0 /* mutating-methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "mutating-methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3853590220E00BB00578FA0 /* properties-and-methods-of-strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "properties-and-methods-of-strings.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3853591220E035500578FA0 /* properties-and-methods-of-arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "properties-and-methods-of-arrays.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B395DDB22210304B0062F648 /* creating-your-own-classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "creating-your-own-classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B395DDB32210338F0062F648 /* class-inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "class-inheritance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B395DDB4221044560062F648 /* overriding-methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "overriding-methods.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B395DDB5221049780062F648 /* final-classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "final-classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B395DDB622104D900062F648 /* copying-objects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "copying-objects.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B395DDB72210507E0062F648 /* deinitializers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = deinitializers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC80E220C32A6006F880F /* running-throwing-functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "running-throwing-functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC80F220C3A09006F880F /* inout-parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "inout-parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC811220C40C3006F880F /* creating-basic-closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "creating-basic-closures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -56,6 +62,7 @@
 		B39FC815220C5DA7006F880F /* trailing-closure-syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "trailing-closure-syntax.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC817220C6347006F880F /* using-closures-as-parameter-when-they-accept-parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "using-closures-as-parameter-when-they-accept-parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B39FC818220C6DDC006F880F /* using-closures-as-paramters-when-they-return-values.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "using-closures-as-paramters-when-they-return-values.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B3B305852210539300F0DDD0 /* mutability.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = mutability.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3C4D94022088E34006BF467 /* day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B3C4D94122089621006BF467 /* day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -150,6 +157,20 @@
 			path = day3;
 			sourceTree = "<group>";
 		};
+		B395DDB122102F630062F648 /* day10 */ = {
+			isa = PBXGroup;
+			children = (
+				B3B305852210539300F0DDD0 /* mutability.playground */,
+				B395DDB72210507E0062F648 /* deinitializers.playground */,
+				B395DDB622104D900062F648 /* copying-objects.playground */,
+				B395DDB5221049780062F648 /* final-classes.playground */,
+				B395DDB4221044560062F648 /* overriding-methods.playground */,
+				B395DDB32210338F0062F648 /* class-inheritance.playground */,
+				B395DDB22210304B0062F648 /* creating-your-own-classes.playground */,
+			);
+			path = day10;
+			sourceTree = "<group>";
+		};
 		B39FC810220C402D006F880F /* day6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +206,7 @@
 		B3C4D92A2208861E006BF467 /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B395DDB122102F630062F648 /* day10 */,
 				B33C2BAC220EFBEF00D275C6 /* day9 */,
 				B33B8570220DD659002019EA /* day8 */,
 				B39FC816220C6227006F880F /* day7 */,
