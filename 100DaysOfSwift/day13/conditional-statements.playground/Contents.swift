@@ -14,15 +14,14 @@ if person == "hater" {
 
 //Evulating multiple conditions
 
+var action: String = ""
+var stayOutTooLate = false
+var nothingInBrain = false
+
 if stayOutTooLate && nothingInBrain {
     action = "cruise"
 }
 action = ""
-
-
-var action: String = ""
-var stayOutTooLate = false
-var nothingInBrain = false
 
 if stayOutTooLate && nothingInBrain {
     action = "cruise"
